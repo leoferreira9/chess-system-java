@@ -5,16 +5,16 @@ public class Position {
     private int row;
     private int column;
 
-    public Position(int row, int column){
+    public Position(int row, int column) {
         this.row = row;
         this.column = column;
     }
 
-    public int getRow(){
+    public int getRow() {
         return row;
     }
 
-    public void setRow(int row){
+    public void setRow(int row) {
         this.row = row;
     }
 
@@ -27,7 +27,7 @@ public class Position {
     }
 
     @Override
-    public String toString(){
+    public String toString() {
         return row + ", " + column;
     }
 }
